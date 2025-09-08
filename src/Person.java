@@ -216,7 +216,7 @@ public class Person {
                             //Birthday
                             System.out.println("Enter the new Birthday: ");
                             String newBirthday = scanner.next().trim().toLowerCase();
-                            P.set_name(newBirthday);
+                            P.set_birthday(newBirthday);
                             System.out.println("The new Birthday is: " +  familymembers.get(i).get_birthday());
 
 
@@ -225,10 +225,8 @@ public class Person {
                             //PhoneNumber
                             System.out.println("Enter the new PhoneNumber: ");
                             String newPhoneNumber = scanner.next().trim().toLowerCase();
-                            P.set_birthday(newPhoneNumber);
+                            P.setPhoneNumber(newPhoneNumber);
                             System.out.println("The new PhoneNumber is: " +  familymembers.get(i).getPhoneNumber());
-
-
                             break;
                         case 5:
                             //Email
